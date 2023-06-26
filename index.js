@@ -22,7 +22,7 @@ function checkPalindrome(txt) {
         if(txt_new[i] !== txt_new[len-1-i]){
             status="Not a palindrome:false";
             display.textContent="No! its not a palindrome";
-        }else if(txt_new[i]=== txt_new[len-1]) {
+        }else if(txt_new[i] === txt_new[len-1]) {
             status="its a Palindrome:true";
             display.textContent="Yes! its a palindrome";}
     }
